@@ -1,1 +1,1 @@
-# Generative-Model-For-Image-Generation
+# Generative Models For Image Generation
