@@ -11,3 +11,9 @@ I have used Keras library for this project. As mentioned on their webpage, it is
 Code in this repository is heavily influenced from these articles and repositories:
 - [Variational Autoencoder using Keras](https://github.com/fchollet/keras/blob/master/examples/variational_autoencoder.py)
 - [Keras blog on autoencoders](https://blog.keras.io/building-autoencoders-in-keras.html)
+- [DCGAN using Keras](https://github.com/jacobgil/keras-dcgan)
+- [OpenAI Generative Models blog](https://openai.com/blog/generative-models/)
+
+###Experiments
+---
+For this project I used my laptop with i5 processor for training. This restricted the traning set size and iterations I could run to get results in acceptable amount of time. The most interesting datasets were Celebrity Face Dataset (CFD) [1] and New York Skyline Dataset (NYSD) [2]. CFD provides a large set of images for training, but I used only 9000 images. NYSD was created using frames of a video, partitioned into 1200 training images and 125 test images. These images were later resized (32x32 or 64x64) to feed to the network. Our experiment setting is as follows:
