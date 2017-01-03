@@ -9,5 +9,5 @@ This repository contains code for artificial image generation using generative m
 I have used Keras library for this project. As mentioned on their webpage, it is a high-level neural networks library, written in Python and capable of running on top of either TensorFlow or Theano. It is easy to use and I would highly recommend it.
 
 Code in this repository is heavily influenced from these articles:
-[Variational Autoencoder using Keras](https://github.com/fchollet/keras/blob/master/examples/variational_autoencoder.py)
-[Keras blog on autoencoders](https://blog.keras.io/building-autoencoders-in-keras.html)
+- [Variational Autoencoder using Keras](https://github.com/fchollet/keras/blob/master/examples/variational_autoencoder.py)
+- [Keras blog on autoencoders](https://blog.keras.io/building-autoencoders-in-keras.html)
