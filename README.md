@@ -19,7 +19,7 @@ Code in this repository is heavily influenced from these articles and repositori
 ---
 For this project I used my laptop with i5 processor for training. This restricted the traning set size and iterations I could run to get results in acceptable amount of time. The most interesting datasets were [Celebrity Face Dataset (CFD)](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) and [New York Skyline Dataset (NYSD)](https://www.youtube.com/watch?v=DDo73Njxdqc). CFD provides a large set of images for training, but I used only 9000 images. NYSD was created using frames of a video, partitioned into 1200 training images and 125 test images. These images were later resized (32x32 or 64x64) to feed to the network.
 
-Note: VAE code takes 64X64 colored images as input, while DCGAN takes 32X32 colored images.
+Note: VAE code in this repository takes 64X64 colored images as input, while DCGAN takes 32X32 colored images.
 
 ###Results
 ---
