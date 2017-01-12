@@ -9,7 +9,6 @@ from keras.layers.core import Activation
 from keras.layers.normalization import BatchNormalization
 from keras.layers.convolutional import UpSampling2D
 from keras.layers.convolutional import Convolution2D, MaxPooling2D
-import cv2
 import glob
 import os
 import numpy as np
@@ -103,6 +102,7 @@ def combine_images(generated_images):
 
 
 def train(BATCH_SIZE):
+    #path to dataset
     path="Project/data/celebD"
     (X_train, X_test) = load_local_data(path)
 
