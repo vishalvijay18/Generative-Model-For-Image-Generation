@@ -44,3 +44,15 @@ Some benefits and drawbacks of both the techniques are as follows:
 - Cons:
     1. VAE - Network tends to produce more blurry images
     2. GAN - No way of determining which initial noise values would produce a particular picture
+
+###Execution Steps
+---
+To run GAN code you will need tensorflow backend with "image_dim_ordering" set to "th" in ~/.keras/keras.json file. Also you need to set path for dataset in dcgan.py file. Use following command to run:
+```
+python dcgan_face.py --mode train --batch_size 128
+```
+
+To run VAE code you will need tensorflow backend with "image_dim_ordering" set to "tf" in ~/.keras/keras.json file. Also you need to set path for dataset in vae_landscape_64.py file. Use following command to run:
+```
+python vae_landscape_64.py
+```
