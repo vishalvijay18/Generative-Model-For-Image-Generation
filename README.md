@@ -56,3 +56,6 @@ To run VAE code you will need tensorflow backend with "image_dim_ordering" set t
 ```
 python vae_landscape_64.py
 ```
+
+###References
+---
